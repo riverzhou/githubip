@@ -32,7 +32,7 @@ resultFilename = 'hosts'
 urlPrefix = 'https://ip.sb/domain/'
 resultTag = 'https://ip.sb/whois/'
 resultHead = 'Address'
-waitTime = 5
+waitTime = 8
 maxRetry = 2
 
 listUrl = []
