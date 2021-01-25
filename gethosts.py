@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import os
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
 from PyQt5.QtWebEngineWidgets import *
@@ -106,6 +107,7 @@ def loadUrl():
 
 
 if __name__ == '__main__':
+    os.environ['QT_QPA_PLATFORM'] = 'offscreen' 
     a = QApplication([])
     bgTimer = QTimer()
     webview = QWebEngineView()
